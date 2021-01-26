@@ -20,8 +20,8 @@ LayoutName=org.kde.breeze.desktop
 BorderSize=None
 ButtonsOnLeft=
 ButtonsOnRight=IAX
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Fluent
+library=com.github.sunnjek.fluent
+theme=Fluent
 
 [plasmarc][Theme]
 name=Qogir-dark
