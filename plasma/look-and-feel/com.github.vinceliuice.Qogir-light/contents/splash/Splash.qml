@@ -37,7 +37,7 @@ Image {
         y: root.height
         source: "images/rectangle.svg"
         Image {
-            source: "images/kde.svg"
+            source: "images/koompi.svg"
             anchors.centerIn: parent
         }
         Rectangle {
