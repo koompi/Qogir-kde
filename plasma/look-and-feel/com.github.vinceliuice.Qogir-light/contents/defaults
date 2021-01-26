@@ -21,7 +21,7 @@ BorderSize=None
 ButtonsOnLeft=
 ButtonsOnRight=IAX
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Qogir-light-circle
+theme=__aurorae__svg__Fluent
 
 [plasmarc][Theme]
 name=Qogir
