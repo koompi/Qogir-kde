@@ -1,6 +1,6 @@
 pkgname="qogir-theme-koompi"
 pkgver="0.1.0"
-pkgrel=1
+pkgrel=2
 pkgdesc="Qorgir theme by Vinceliuice ported to match KOOMPI branding"
 arch=('any')
 url="https://github.com/koompi/Qogir-kde"
@@ -20,5 +20,5 @@ build() {
 }
 
 package() {
-    rsync -av "${srcdir}/Qogir-kde/root/usr" $pkgdir/${pkgname}/
+    cp -r "${srcdir}/Qogir-kde/root/usr" "${pkgdir}"
 }
