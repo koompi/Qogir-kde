@@ -6,6 +6,7 @@ arch=('any')
 url="https://github.com/koompi/Qogir-kde"
 license=('GPL3')
 source=('git+https://github.com/koompi/Qogir-kde.git')
+md5sums=('SKIP')
 
 prepare() {
     cd "${srcdir}/Qogir-kde"
@@ -15,9 +16,9 @@ prepare() {
 build() {
     cd "${srcdir}/Qogir-kde"
     mkdir -p "${srcdir}/Qogir-kde/root"
-    sh ${srcdir}/Qogir-kde/install.sh
+    sh install.sh
 }
 
 package() {
-    rsync -av "${srcdir}/Qogir-kde/root" $pkgdir
+    rsync -av "${srcdir}/Qogir-kde/root/usr" $pkgdir/${pkgname}/
 }
