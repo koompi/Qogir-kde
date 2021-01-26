@@ -1,6 +1,6 @@
 pkgname="qogir-theme-koompi"
-pkgver="0.1.0"
-pkgrel=2
+pkgver="0.1.1"
+pkgrel=1
 pkgdesc="Qorgir theme by Vinceliuice ported to match KOOMPI branding"
 arch=('any')
 url="https://github.com/koompi/Qogir-kde"
